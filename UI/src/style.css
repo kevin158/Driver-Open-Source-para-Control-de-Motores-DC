@@ -1,0 +1,73 @@
+
+@font-face {
+  font-family: HPSimplified_Bd;
+  src: url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-bold-eot.eot");
+  src: url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-bold-eot.eot?#iefix") format("embedded-opentype"), url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-bold-woff.woff ") format("woff"), url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-bold-ttf.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HPSimplified_Rg;
+  src: url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-regular-eot.eot");
+  src: url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-regular-eot.eot?#iefix") format("embedded-opentype"), url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-regular-woff.woff") format("woff"), url("https://ssl.www8.hp.com/h10180/hp-fonts/v2-0/hps-euro-w01-regular-ttf.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+#page_wrapper{
+  background-color: #fff;
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+ 
+  
+}
+
+#page_content {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 30px;
+ 
+
+}
+
+
+/* Modify component */
+
+#btn{
+  font-size: 1.25rem;
+  background-color: #0096d6;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  float: right;
+}
+
+
+/* Responsive */
+@media(min-width: 1000px){
+    .my-modal > .modal-xlog{
+        width: 1400px;
+    }
+}
+
+.contain1 {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  display: flex;
+  padding-left: 3%;
+}
+
+.contain2 {
+  width: 18rem;
+  margin-right: 5%;
+}
+
